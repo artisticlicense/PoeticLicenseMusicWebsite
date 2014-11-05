@@ -1,0 +1,364 @@
+@font-face {
+  font-family: BrokenGhost;
+  src: url('../fonts/BROKEN_GHOST.ttf');
+}     
+
+@font-face {
+  font-family: VtksMoney2;
+  src: url('../fonts/Vtks Money2.ttf');
+}  
+
+img#logo {
+	float: left;
+	padding: 5px 0px 0px 10px;
+}
+
+img#left-arrow {
+	padding: 200px 0px 500px 20px;
+}
+
+img#right-arrow {
+	padding: 200px 0px 500px 793px;
+} 
+ 
+.logo {
+  font-family: BrokenGhost;
+  font-size: 36pt;
+  color: #ffffff;
+  line-height: 70%;
+}
+
+.stylized {
+  font-family: VtksMoney2;
+  font-size: 60pt;
+  color: #60d17f;
+} 
+
+div.header ul {
+    display:block;
+    float:right;
+    list-style:none;	
+}
+
+li.top-menu {
+	display:block;
+	float:left;
+	font-family: Verdana;
+	padding: 0px 0px 0px 50px;
+	font-size: 14pt;
+	color: #ffffff;
+	position: relative; 
+	bottom: -20px;
+	left: -100px;
+}
+
+li.top-menu a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+li.top-menu a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+li.top-menu a:hover {
+	color: #60d17f;
+	text-decoration: none;
+}
+
+li.top-menu a:active {
+	color: #60d17f;
+	text-decoration: none;
+}
+
+div.header {
+	width: 1020px;
+	height: 65px;
+	margin: 0 auto;
+	background: #2a2a2a;
+	text-align: center;
+}
+
+div.feature {
+	width: 1020px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url('../images/Feature1.jpg');
+}
+
+#feature ul {
+    display:block;
+    float:left;
+	position: absolute;
+	top: 180px;
+	right: 0px;
+	bottom: 500px;
+	left: -20px;
+    list-style:none;	
+}
+
+#feature ul li{
+    display:block;
+    float:left;
+    height:125px;
+    text-indent:-10000px;
+}
+
+#left-arrow a{
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 40px;
+	background:url("../images/LeftArrowNonSel.png") no-repeat 0 0;
+}
+
+#right-arrow a{
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 925px;
+	background:url("../images/RightArrowNonSel.png") no-repeat 0 0;
+}
+
+#left-arrow a:hover{
+	background:url("../images/LeftArrowSel.png");
+}
+
+#right-arrow a:hover{
+	background:url("../images/RightArrowSel.png");
+}
+
+div.content {
+	background: #9ab8a7;
+	position: relative;
+	width: 1020px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+#upper-content ul {
+	display:block;
+    float:left;
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	bottom: 0px;
+	left: -27px;
+    list-style:none;
+	height: 144px;
+}
+
+#upper-content ul li {
+    display:block;
+	float: left;
+	height: 144px;
+	width: 324px;
+    text-indent:-10000px;
+	padding: 0px 0px 0px 10px;
+	/*background:url("../images/TourDatesButton.png") no-repeat 0 0;*/
+}
+
+#tour-dates a {
+	width: 324px;
+	height: 144px;
+	position: absolute;
+	left: 40px;
+	background: url("../images/TourDatesButton.png");
+}
+
+#tour-dates a:hover {
+	background: url("../images/TourDatesButtonSel.png");
+}
+
+#new-rel a {
+	width: 324px;
+	height: 144px;
+	position: absolute;
+	left: 375px;
+	background: url("../images/NewReleasesButton.png");
+}
+
+#new-rel a:hover {
+	background: url("../images/NewReleasesButtonSel.png");
+}
+
+#top-hits a {
+	width: 324px;
+	height: 144px;
+	position: absolute;
+	left: 710px;
+	background: url("../images/TopHitsButton.png");
+}
+
+#top-hits a:hover {
+	background: url("../images/TopHitsButtonSel.png");
+}
+
+div#lower-content {
+	font-family: Verdana;
+}
+
+.content-title {
+	font-size: 30pt;
+	top: 120px;
+	color: #2a2a2a;
+}
+
+.content-text {
+	line-height: 150%;
+	color: #2a2a2a;
+}
+
+div#lower-content ul{
+	display:block;
+    float:left;
+	position: absolute;
+	top: 170px;
+	width: 1020px;
+    list-style:none;
+}
+
+div#lower-content ul li{
+    display:block;
+	float: left;
+	height: 200px;
+	width: 600px;
+	padding: 0px 0px 0px 10px;
+	clear: both;
+}
+
+#song-reviews {
+	position: absolute;
+	left: 40px;
+}
+
+#guitar-img {
+	position: absolute;
+	left: 191px;
+}
+
+#song-reviews div.content-title {
+	position: absolute;
+	left: 100px;
+}
+
+#song-reviews div.content-text{
+	position: absolute;
+	top: 190px;
+}
+
+#flames-img {
+	position: absolute;
+	left: 680px;
+}
+
+#latest-news div.content-title{
+	position: absolute;
+	left: 615px;
+}
+
+#latest-news div.content-text{
+	position: absolute;
+	left: 530px;
+	top: 190px;
+}
+
+footer {
+	font-family: Verdana;
+	color: #ffffff;
+	background: #005750;
+	width: 1020px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+footer ul {
+    display:block;
+	float: left;
+    list-style:none;
+	position:absolute;
+	left: 20px;
+}
+
+footer ul li {
+    display:block;
+	line-height: 150%;
+	font-size: 12pt;
+	top:100px;
+}
+
+#footer-menu {
+	position: absolute;
+	top: 100px;
+}
+
+#produce-music {
+	font-size: 20pt;
+	position: absolute;
+	top:50px;
+	width: 500px;
+}
+
+#new-music-contact {
+	position: absolute;
+	top:75px;
+	width: 500px;
+}
+
+.menu-header {
+	font-size: 14pt;
+}
+
+ul#about-us {
+    display:block;
+	float: left;
+    list-style:none;
+	position: absolute;
+	top: 10px;
+	left: 440px;
+	width: 100px;
+}
+
+ul#music {
+    display:block;
+	float: left;
+    list-style:none;
+	position: absolute;
+	top: 10px;
+	left: 570px;
+	width: 140px;
+}
+
+ul#downloads {
+    display:block;
+	float: left;
+    list-style:none;
+	position: absolute;
+	top: 10px;
+	left: 730px;
+	width: 140px;
+}
+
+ul#follow-us {
+    display:block;
+	float: left;
+    list-style:none;
+	position: absolute;
+	top: 10px;
+	left: 890px;
+	width: 100px;
+}
+
+div#container {
+	margin: 0 auto;
+	width: 1020px;
+	-moz-box-shadow: 0px 0px 8px #000;
+	-webkit-box-shadow: 0px 0px 8px #000;
+	box-shadow: 0px 0px 8px #000;
+}
+
+body {
+	background: #737473;
+}
