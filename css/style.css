@@ -134,7 +134,7 @@ div.content {
 	background: #9ab8a7;
 	position: relative;
 	width: 1020px;
-	height: 700px;
+	height: 850px;
 	margin: 0 auto;
 }
 
@@ -207,7 +207,6 @@ div#lower-content {
 }
 
 .content-text {
-	line-height: 150%;
 	color: #2a2a2a;
 }
 
@@ -223,9 +222,8 @@ div#lower-content ul{
 div#lower-content ul li{
     display:block;
 	float: left;
-	height: 200px;
 	width: 600px;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 0px 10px 10px;
 	clear: both;
 }
 
@@ -262,7 +260,7 @@ div#lower-content ul li{
 #latest-news div.content-text{
 	position: absolute;
 	left: 530px;
-	top: 190px;
+	top: 20px;
 }
 
 footer {
@@ -279,7 +277,7 @@ footer ul {
 	float: left;
     list-style:none;
 	position:absolute;
-	left: 110px;
+	left: 220px;
 }
 
 footer ul li {
@@ -361,4 +359,38 @@ div#container {
 
 body {
 	background: #737473;
+}
+
+/* RSS Feeds - Ember/Handlebars Section */
+.content-text ul {
+	top: -200px;
+}
+
+.content-text ul li {
+	top: -200px;
+	line-height: 100%;
+}
+.news-title {
+	width: 350px;
+}
+.news-title a {
+	color: #005750;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.news-title a:hover {
+	text-shadow: 1px 0px #60d17f;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.content-snippet {
+	font-size: 9pt;
+	width: 350px;
+}
+
+.published-date {
+	font-size: 9pt;
+	font-style: italic;
 }

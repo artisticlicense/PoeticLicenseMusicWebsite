@@ -8,3 +8,4 @@ function scrollFeature(){
 
 	document.getElementById("feature").style.backgroundImage = "url('images/Feature" + featureArr[curFeatureIndex] + ".jpg')";
 }
+
